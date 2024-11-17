@@ -39,7 +39,7 @@ export function FeatureSection(): JSX.Element {
     <div className="relative bg-white py-8 sm:py-12 md:py-40">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex hidden flex-col items-start md:inline">
-          <h2 className="text-xl text-blue-600">PASOS es el Plan de Accion en</h2>
+          <h2 className="text-xl text-orange-600">PASOS es el Plan de Accion en</h2>
           <p className="mt-6 text-4xl font-semibold text-gray-900">SObrepeso y Sedentarismo</p>
           <p className="mt-4 w-full max-w-xs text-lg font-normal text-neutral-600 sm:max-w-none md:max-w-sm lg:max-w-lg lg:text-xl">
 	    Un plan de prevención para la Salud y el Bienestar con foco en la toma de conciencia de los beneficios de una vida saludable, en un proceso de aprendizaje personalizado e innovador.
