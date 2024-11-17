@@ -17,7 +17,7 @@
   #signin input[type='text'],
   #signin input[type='email'],
   #signin input[type='password'] {
-    @apply mb-6 block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-green-500 focus:outline-none focus:ring-green-500 sm:text-sm;
+    @apply mb-6 block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-orange-500 focus:outline-none focus:ring-orange-500 sm:text-sm;
   }
 
   #signin .medplum-signin-buttons > div {
