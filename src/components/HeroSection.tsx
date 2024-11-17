@@ -84,7 +84,7 @@ function classNames(...classes: string[]): string {
 
 export function HeroSection(): JSX.Element {
   return (
-    <div className="relative bg-gradient-radial from-green-50">
+    <div className="relative bg-gradient-radial from-orange-50">
       <Popover className="relative bg-white shadow">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="flex items-center justify-between space-x-6 py-6 lg:space-x-10">
@@ -95,7 +95,7 @@ export function HeroSection(): JSX.Element {
               </a>
             </div>
             <div className="-my-2 -mr-2 md:hidden">
-              <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-green-500">
+              <Popover.Button className="inline-flex items-center justify-center rounded-md bg-white p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
                 <span className="sr-only">Open menu</span>
                 <Bars3Icon className="h-6 w-6" aria-hidden="true" />
               </Popover.Button>
@@ -107,7 +107,7 @@ export function HeroSection(): JSX.Element {
                     <Popover.Button
                       className={classNames(
                         open ? 'text-gray-900' : 'text-gray-500',
-                        'group inline-flex items-center rounded-md bg-white text-base font-normal hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2'
+                        'group inline-flex items-center rounded-md bg-white text-base font-normal hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2'
                       )}
                     >
                       <span>Servicios</span>
@@ -138,7 +138,7 @@ export function HeroSection(): JSX.Element {
                                 href={item.href}
                                 className="-m-3 flex items-start rounded-lg p-3 hover:bg-gray-50"
                               >
-                                <item.icon className="h-6 w-6 flex-shrink-0 text-green-600" aria-hidden="true" />
+                                <item.icon className="h-6 w-6 flex-shrink-0 text-orange-600" aria-hidden="true" />
                                 <div className="ml-4">
                                   <p className="text-base font-medium text-gray-900">{item.name}</p>
                                   <p className="mt-1 text-sm text-gray-500">{item.description}</p>
