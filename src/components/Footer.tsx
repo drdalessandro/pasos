@@ -1,10 +1,10 @@
 import React from 'react';
 
 const navigation = [
-  { name: 'NAPP', href: 'https://www.nappfc.com.ar/' },
-  { name: 'Programa', href: 'https://www.epa-bienestar.com/prevencion.html' },
-  { name: 'Contacto', href: 'https://www.nappfc.com.ar/contacto/' },
-  { name: 'TeleConsulta', href: 'https://calendar.app.google/JWYcJXgaS7xTE8QS7' },
+  { name: 'PASOS', href: 'https://www.miscaminatas.com/' },
+  { name: 'Programa', href: 'https://www.miscaminatas.com/pasos.html' },
+  { name: 'Contacto', href: 'https://info.miscaminatas.com/contacto.html' },
+  { name: 'TeleConsulta', href: 'https://plataforma.miscaminatas.com/entrevistas/' },
 ];
 
 export function Footer(): JSX.Element {
@@ -21,7 +21,7 @@ export function Footer(): JSX.Element {
             </a>
           ))}
         </nav>
-        <p className="py-12 text-center text-sm text-neutral-900">&copy; 2024 EPA Bienestar IA. Derechos Reservados.</p>
+        <p className="py-12 text-center text-sm text-neutral-900">&copy; 2025 PASOS. Derechos Reservados.</p>
       </div>
     </footer>
   );
