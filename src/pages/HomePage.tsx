@@ -91,10 +91,10 @@ export function HomePage(): JSX.Element {
   return (
     <div>
       <Header />
-      <div className="flex justify-center bg-red-100 py-4 px-6 text-sm text-neutral-600">
+      <div className="flex justify-center bg-orange-100 py-4 px-6 text-sm text-neutral-600">
         <span>
           Teleconsulta:{' '}
-          <a href="https://calendar.app.google/xDTfydsYJT6J6EhG9" className="font-medium text-red-600">
+          <a href="https://calendar.app.google/xDTfydsYJT6J6EhG9" className="font-medium text-orange-600">
             Solicitar turno on line!
           </a>
         </span>
@@ -104,7 +104,7 @@ export function HomePage(): JSX.Element {
           <div className="py-20">
             <div className="flex flex-col items-start md:w-128 lg:w-156">
               <p className="max-w-xs text-1xl sm:text-2xl md:max-w-none md:text-3xl lg:text-4xl">
-                Hola <span className="text-red-600">{profileName}</span></p>
+                Hola <span className="text-orange-600">{profileName}</span></p>
               <Button url="/health-record/vitals/blood-pressure" label="Ingresar nuevos datos de salud" marginsUtils="m-0 mt-8" paddingUtils="px-10 py-4" fontUtils="medium"/>
             </div>
           </div>2
@@ -152,8 +152,8 @@ export function HomePage(): JSX.Element {
               />
             </div>
             <div className="flex w-full max-w-[626px] flex-none flex-col items-center justify-center p-4 md:items-start md:justify-start">
-              <div className="rounded bg-green-100 py-1 px-3">
-                <h3 className="text-base font-medium uppercase text-green-600">Now available</h3>
+              <div className="rounded bg-orange-100 py-1 px-3">
+                <h3 className="text-base font-medium uppercase text-orange-600">Now available</h3>
               </div>
               <div className="text-center md:text-left">
                 <h2 className="my-4 text-lg font-medium text-gray-900">Title</h2>
