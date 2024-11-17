@@ -16,9 +16,9 @@ import { Patient, Practitioner } from '@medplum/fhirtypes';
 const carouselItems = [
   {
     img: <TaskIcon />,
-    title: 'Prevención HTA ENT',
+    title: 'Promover la Salud',
     description:
-      'Las Enfermedades Cardiovasculares, Diabetes Tipo II, algunos tipos de cáncer y EPOC. Se pueden prevenir controlando sus factores de riesgo',
+      'Algunas condiciones sed pueden prevenir controlando sus factores de riesgo',
     url: '/get-care',
     label: 'Factores de Riesgo',
   },
