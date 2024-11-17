@@ -44,7 +44,7 @@ export function Header(): JSX.Element {
           </nav>
           <div className="flex items-center lg:hidden">
             {/* Mobile menu button */}
-            <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500">
+            <Popover.Button className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-orange-500">
               <span className="sr-only">Open main menu</span>
               <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -146,7 +146,7 @@ export function Header(): JSX.Element {
             {/* Profile dropdown */}
             <Menu as="div" className="relative flex-shrink-0">
               <div>
-                <Menu.Button className="flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                <Menu.Button className="flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
                   <span className="sr-only">Open user menu</span>
                   {profile.photo && profile.photo?.length > 0 ? (
                     <img className="h-11 w-11 rounded-full" src={profile.photo[0].url} alt="" />
