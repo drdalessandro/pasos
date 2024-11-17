@@ -26,7 +26,7 @@ const carouselItems = [
     img: <TaskIcon />,
     title: 'Verificar Email',
     description:
-      'Queremos ofrecer un servicio simple y muy efectivo. Es por eso que nos preocupa comunicarnos satisfactoriamente con nuestros usuarios',
+      'Queremos ofrecer un servicio simple y muy efectivo. Es por eso que nos preocupa comunicarnos',
     url: '/account',
     label: 'Enviar mail de verificación',
   },
@@ -91,10 +91,10 @@ export function HomePage(): JSX.Element {
   return (
     <div>
       <Header />
-      <div className="flex justify-center bg-green-100 py-4 px-6 text-sm text-neutral-600">
+      <div className="flex justify-center bg-red-100 py-4 px-6 text-sm text-neutral-600">
         <span>
           Teleconsulta:{' '}
-          <a href="https://calendar.app.google/JWYcJXgaS7xTE8QS7" className="font-medium text-green-600">
+          <a href="https://calendar.app.google/xDTfydsYJT6J6EhG9" className="font-medium text-red-600">
             Solicitar turno on line!
           </a>
         </span>
@@ -104,13 +104,13 @@ export function HomePage(): JSX.Element {
           <div className="py-20">
             <div className="flex flex-col items-start md:w-128 lg:w-156">
               <p className="max-w-xs text-1xl sm:text-2xl md:max-w-none md:text-3xl lg:text-4xl">
-                Hola <span className="text-green-600">{profileName}</span></p>
+                Hola <span className="text-red-600">{profileName}</span></p>
               <Button url="/health-record/vitals/blood-pressure" label="Ingresar nuevos datos de salud" marginsUtils="m-0 mt-8" paddingUtils="px-10 py-4" fontUtils="medium"/>
             </div>
           </div>2
         </section>
       </div>
-      <div className="flex w-full justify-center bg-green-900 py-4 px-2 sm:px-4 lg:px-8">
+      <div className="flex w-full justify-center bg-red-900 py-4 px-2 sm:px-4 lg:px-8">
         <div className="flex flex-col items-center space-y-4 font-medium text-white md:flex-row md:space-y-0 md:space-x-6">
           <GiftIcon className="h-10 w-10 stroke-1 text-white" />
           <p>¿Cómo te va?</p>
