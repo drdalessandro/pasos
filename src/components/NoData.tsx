@@ -9,7 +9,7 @@ const NoData = ({ title }: NoDataProps): JSX.Element => {
   const subTitle = (
     <>
       If you think you&apos;re missing {title} that should be here, please{' '}
-      <a href="#" className="text-blue-600">
+      <a href="#" className="text-orange-600">
         contact our medical team.
       </a>
     </>
