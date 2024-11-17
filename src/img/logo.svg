@@ -1,9 +1,0 @@
-<svg width="1050" height="180" viewBox="0 0 1343 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="75.5" cy="125" r="25" fill="green" />
-    <circle cx="125.5" cy="75" r="25" fill="green" />
-    <circle cx="25.5" cy="75" r="25" fill="green" />
-    <circle cx="75.5" cy="25" r="25" fill="green" />
-    <path
-        d="M70.4455 24.7864V69.518H25.7139V80.0548H70.4455V124.786H80.9823V80.0548H125.714V69.518H80.9823V24.7864H70.4455Z"
-        fill="white" />
-</svg>
