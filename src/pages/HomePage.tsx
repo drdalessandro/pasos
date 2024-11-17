@@ -18,7 +18,7 @@ const carouselItems = [
     img: <TaskIcon />,
     title: 'Promover la Salud',
     description:
-      'Algunas condiciones sed pueden prevenir controlando sus factores de riesgo',
+      'Algunas condiciones se pueden prevenir controlando sus factores de riesgo',
     url: '/get-care',
     label: 'Factores de Riesgo',
   },
