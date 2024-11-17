@@ -20,10 +20,10 @@ const Button = ({
   widthUtils = 'auto',
   fontUtils = 'normal',
   paddingUtils = 'px-4 py-2',
-  backgroundColorUtils = 'bg-green-600',
+  backgroundColorUtils = 'bg-blue-600',
   textColorUtils = 'text-white',
   borderColorUtils = 'border-transparent',
-  hoverUtils = 'bg-green-700',
+  hoverUtils = 'bg-blue-700',
 }: ButtonProps): JSX.Element => {
   const style = `${marginsUtils} whitespace-nowrap inline-flex items-center justify-center
     ${paddingUtils} w-${widthUtils} border ${borderColorUtils} rounded-md shadow-sm
