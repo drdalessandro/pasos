@@ -20,7 +20,7 @@ const InfoSection = ({ title, children, onButtonClick, id = '' }: InfoSectionPro
         <h3 className="text-lg leading-6 text-gray-500">{title}</h3>
         {onButtonClick && (
           <Button onClick={() => onButtonClick(id)}>
-            <XMarkIcon className="h-6 w-6 self-center text-gray-400 hover:text-green-700" />
+            <XMarkIcon className="h-6 w-6 self-center text-gray-400 hover:text-blue-700" />
           </Button>
         )}
       </div>
