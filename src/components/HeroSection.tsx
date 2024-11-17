@@ -342,15 +342,15 @@ export function HeroSection(): JSX.Element {
         <div className="flex w-full flex-col items-center pt-8 pb-8 text-left sm:items-start sm:pb-36 md:py-36">
           <div className="flex flex-col items-center sm:items-start">
             <h1 className="text-center text-3xl font-medium tracking-wider text-gray-900 sm:text-left sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
-              <p>BIENESTAR</p>
-              <p className="text-green-600">PODES LOGRARLO</p>
+              <p>PROMOCION</p>
+              <p className="text-orange-600">PARA LA SALUD</p>
             </h1>
             <p className="mt-6 w-full max-w-xs text-lg font-normal text-neutral-600 sm:max-w-none md:max-w-sm lg:max-w-lg lg:text-xl">
               "Tu Plan Bienestar 100 días ❤️"{' '}
             </p>
 	    <div className="mt-8 sm:flex sm:justify-center md:mt-20 lg:justify-start">
               <div className="rounded-md shadow">
-                <a href="/signin" className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-600 py-4 px-20 text-lg font-normal text-white hover:bg-green-700">Ingresar!</a>
+                <a href="/signin" className="flex w-full items-center justify-center rounded-md border border-transparent bg-green-600 py-4 px-20 text-lg font-normal text-white hover:bg-orange-700">Ingresar!</a>
               </div>
             </div>
           </div>
